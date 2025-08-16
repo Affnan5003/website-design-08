@@ -1,0 +1,343 @@
+/* google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+/* basic style */
+
+.down{
+    margin-bottom: 100px;
+}
+.up{
+    margin-top: 90px;
+}
+.ml-30{
+  margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+/* basic style end */
+
+
+/* section-02 */
+.section-02-h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+   font-family: "Roboto Mono", monospace;
+}
+.section-02-p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+   
+}
+.section-02-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.section-02-btn:hover {
+  background-color: #ff4c4c;
+}
+/* section-03 */
+.section-03-h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+   font-family: "Archivo Black", sans-serif;
+}
+.section-03-p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* row-card */
+.product-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(170, 13, 13, 0.555);
+}
+
+.product-card img {
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.08);
+}
+
+.product-card .btn {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+  border: 0;
+}
+
+.product-card .btn:hover {
+  background: #ff4c4c;
+  color: #fff;
+}
+/* section-05 */
+.section-05-p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+   font-family: "Archivo Black", sans-serif;
+}
+.section-05-h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-05-h01 {
+  font-size: 7rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  ;
+   
+}
+.section-05-h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+   font-family: "Roboto Mono", monospace;
+   
+}
+/* section-06 */
+.btn-shop {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: white;
+  color: black;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-shop:hover {
+  background: #f1c40f; 
+  color: black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+.h-p-btn{
+  margin-top: 90px;
+}
+/* section-07 */
+.section-07-title h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.section-07-border {
+  position: relative;
+  overflow: hidden;
+  height: 20rem; 
+  border: 12px solid #fff;
+}
+
+.section-07-img {
+  background: url("pic/last-card-Metcon-10.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+  
+}
+.section-07-img1 {
+  background: url("pic/last-card-02.png") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+}
+.section-07-img2 {
+  background: url("pic/last-card-03.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+}
+.section-07-img3 {
+  background: url("pic/last-card-04.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+}
+.section-07-img4 {
+  background: url("pic/last-card-05.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+}
+.section-07-img5 {
+  background: url("pic/last-card-06.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  position: relative;   
+  transition: transform 0.5s ease;
+}
+
+.section-07-border:hover .section-07-img,
+ .section-07-border:hover .section-07-img1,
+ .section-07-border:hover .section-07-img2,
+ .section-07-border:hover .section-07-img3,
+ .section-07-border:hover .section-07-img4,
+ .section-07-border:hover .section-07-img5 {
+  transform: scale(1.1);
+}
+
+.section-07-border::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);  
+  z-index: 1;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 1rem;  
+  left: 1rem;
+  right: 1rem;
+  z-index: 2;   
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.card-content h2 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.btn-custom {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.5rem 1.2rem;
+  background: #fff;
+  color: #000;
+  border-radius: 1.25rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.btn-custom:hover {
+  background: #f1c40f; 
+  color: black;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+
+/* section-08 */
+.section-08-p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 30px;
+  
+}
+/* footer */
+.footer {
+  padding: 2rem 1rem;
+}
+
+.footer-hash {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+.company-link {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.company-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.footer-menu li {
+  border-top: 1px solid #ddd;
+  padding: 0.75rem 0;
+}
+
+.footer-menu li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.unsubscribe {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.unsubscribe a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
